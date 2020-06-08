@@ -2,77 +2,111 @@
   <!-- Content -->
   <div class="content">
     <!-- Profile -->
-    <img class="content__profile" src="/img/profile.jpg">
+    <img class="content__profile" src="/img/download.png" />
     <article class="content__article content__article--center content__article--margin-16">
-      <p class="content__article-title content__article-title--large">
-        Full Name or Title
-      </p>
-      <p class="content__article-subtitle">
-        Insert Subtitle or Subheader
-      </p>
+      <p class="content__article-title content__article-title--large">Fabricio Policarpo</p>
+      <p class="content__article-subtitle">Software Developer based in West Palm</p>
       <p class="content__article-links">
         <a href="/docs/resume.pdf" target="_blank">
-          <i class="far fa-file-alt content__article-link"/>
+          <i class="far fa-file-alt content__article-link" />
         </a>
-        <a href="https://github.com" target="_blank">
-          <i class="fab fa-github content__article-link"/>
+        <a href="https://github.com/fpolica91" target="_blank">
+          <i class="fab fa-github content__article-link" />
         </a>
-        <a href="https://linkedin.com" target="_blank">
-          <i class="fab fa-linkedin-in content__article-link"/>    
+        <a href="https://linkedin.com/in/fpolica" target="_blank">
+          <i class="fab fa-linkedin-in content__article-link" />
         </a>
-        <a href="https://twitter.com" target="_blank">
-          <i class="fab fa-twitter content__article-link"/>      
+        <a href="https://twitter.com/Fabrici47288647" target="_blank">
+          <i class="fab fa-twitter content__article-link" />
         </a>
-        <a href="mailto:name@domain.com" target="_blank">
-          <i class="far fa-envelope content__article-link"/>        
+        <a href="mailto:fabriciopolicarpo0@gmail.com" target="_blank">
+          <i class="far fa-envelope content__article-link" />
         </a>
-      </p>              
+      </p>
     </article>
 
     <!-- About Me -->
     <article class="content__article content__article--margin-16">
       <p class="content__article-details">
-        Lorem ipsum dolor sit amet, facilisi nec, <a href="#" target="_blank">nonummy</a> hendrerit elit a metus <a href="#" target="_blank">ultricies</a>, ante tortor volutpat suspendisse eos hac in, metus quis in felis egestas, sapien id id eu duis volutpat. 
-        <br><br>         
-        A turpis magna ac, eu etiam <a href="#" target="_blank">tellus rutrum</a> enim arcu eget. Non dolor eu torquent. <a href="#" target="_blank">Aenean nostra</a> torquent fringilla, ac wisi penatibus id sit enim scelerisque, metus ac erat, vel id.
-      </p>      
+        I am a professional full-stack web developer with passionate about response design and SPA's.
+        Currently working with Nuxt.js, Google Serveless solutions and Dialogflow.
+        I'm comfortable building applications for Software as a Service business models.
+        <br />
+        <br />I have experience working with React, React Native, Node.JS, Postgres, MongoDB and others.
+        <br />
+        <br />have working of knowldge TDD and DDD patterns. Feel free to contact me, I am open to new opportunities
+        and to learning new technologies.
+      </p>
     </article>
 
     <!-- Projects -->
     <article class="content__article content__article--margin-24">
       <p class="content__article-title content__article-title--medium">
-        <i class="fa fa-briefcase"/> Projects
-      </p>     
-      <hr>
+        <i class="fa fa-briefcase" /> Projects
+      </p>
+      <hr />
     </article>
 
     <!-- Project -->
     <article class="content__article content__article--margin-8">
-      <!-- Title -->       
-      <p class="content__article-title content__article-title">
-        Title
+      <!-- Title -->
+      <p class="content__article-title content__article-title">TriShare</p>
+
+      <!-- Details -->
+      <p class="content__article-details content__article--margin-8">
+        Social media application to upload equirectangular images.
+        <br />
+        <span class="content__article-metadata">
+          <b>
+            <i class="fa fa-code" /> Technology:
+          </b> Node.Js, React, MongoDB, Socket.io, Three.js
+        </span>
       </p>
 
-      <!-- Details --> 
-      <p class="content__article-details content__article--margin-8">
-        Project description goes here.<br> 
-        <span class="content__article-metadata">
-          <b><i class="fa fa-code"/> Technology:</b> HTML, CSS, Javascript
-        </span>  
-      </p>   
+      <!-- Preview -->
+      <a href="https://trishare.herokuapp.com/" target="_blank">
+        <img src="/img/image.png" class="content__article-preview" />
+      </a>
 
-      <!-- Preview -->   
-      <a href="https://xportal.netlify.com/" target="_blank">
-        <img src="/img/preview.jpg" class="content__article-preview">
-      </a> 
-
-      <!-- Links --> 
+      <!-- Links -->
       <p class="content__article-details">
-        -- <br>        
-        <a href="#" target="_blank">Demo</a> | <a href="https://github.com" target="_blank">View on Github</a>
-      </p>   
-      <hr>
-    </article>        
+        --
+        <br />
+        <a href="#" target="_blank">Demo</a> |
+        <a href="https://github.com/fpolica91/VRFrontEnd" target="_blank">View on Github</a>
+      </p>
+      <hr />
+    </article>
+
+    <article class="content__article content__article--margin-8">
+      <!-- Title -->
+      <p class="content__article-title content__article-title">Codey</p>
+
+      <!-- Details -->
+      <p class="content__article-details content__article--margin-8">
+        Chat application with built-in javascript compiler.
+        <br />
+        <span class="content__article-metadata">
+          <b>
+            <i class="fa fa-code" /> Technology:
+          </b> Node.Js, HBS, MongoDB, Socket.io
+        </span>
+      </p>
+
+      <!-- Preview -->
+      <a href="https://thecodey.herokuapp.com/" target="_blank">
+        <img src="/img/codey.png" class="content__article-preview" />
+      </a>
+
+      <!-- Links -->
+      <p class="content__article-details">
+        --
+        <br />
+        <a href="#" target="_blank">Demo</a> |
+        <a href="https://github.com/fpolica91/codey-1" target="_blank">View on Github</a>
+      </p>
+      <hr />
+    </article>
   </div>
 </template>
 
@@ -87,7 +121,7 @@
   z-index: 4;
 }
 .content__profile {
-  height: 180px;
+  height: 200px;
   width: 180px;
   border: solid white 4px;
   border-radius: 50%;
@@ -103,7 +137,7 @@
 }
 .content__article-subtitle {
   font-size: 22px;
-  font-weight: bold;  
+  font-weight: bold;
   color: #a9a9a9;
 }
 .content__article-details {
@@ -117,7 +151,7 @@
 }
 .content__article-link {
   font-size: 22px;
-  margin: 0 8px;   
+  margin: 0 8px;
 }
 .content__article-preview {
   width: 100%;
